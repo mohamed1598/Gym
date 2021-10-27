@@ -1,0 +1,474 @@
+/*begin header*/
+body
+{
+    background-color: #171819;
+}
+.header{
+    background-color: #171819;
+    overflow: hidden;
+}
+.container
+{
+    width : 1170px;
+    margin:auto;
+}
+.clearfix{clear:both;}
+.header .navBar
+{
+    height:70px;
+    width:100%;
+    background-color: #171819;
+    position: fixed;
+}
+.header .navBar h2
+{
+    padding-top: 5px;
+    float:left;
+    color:white;
+}
+.header .navBar .rightSide
+{
+    float:right;
+}
+.header .navBar .rightSide ul
+{
+    list-style: none;
+    overflow: hidden;
+    float :left;
+}
+.header .navBar .rightSide ul li
+{
+    float :left;
+    padding: 10px;
+    padding-left: 20px;
+}
+.header .navBar .rightSide ul li button
+{
+   background-color: #171819;
+    color: white;
+    border:1px solid #171819;
+}
+.header .navBar .rightSide ul li button:hover,
+.header .navBar .rightSide ul .active ,
+.header .navBar h2 :hover
+{
+    color: #ce3a11;
+    border:1px solid #171819;
+}
+.header .navBar .rightSide img
+{
+    width: 30px;
+    height:30px;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+          /*slider*/
+.header .slider
+{
+    background-image:linear-gradient( rgba(50,50,50,0.6), rgba(50,50,50,0.6)) ,url('../images/hero-bg.jpg');
+    height : 900px;
+    background-size: cover;
+    overflow: hidden;
+}
+.header .slider .container
+{
+    text-align: center;
+}
+.header .slider .container p
+{
+    padding-top: 300px;
+    font-size: 30px;
+    color:#8B8B8B
+}
+.header .slider .container h1
+{
+    color: white;
+    font-size: 50px;
+    padding-bottom: 40px;
+}
+
+.header .slider .container button
+{
+    background: none;
+    width: 140px;
+    height: 50px;
+    border: 2px solid #ce3a11;
+    font-weight: bold;
+    color: #ce3a11;
+}
+.header .slider .container .getstarted
+{
+    font-size: 17px;
+    font-weight: bold;
+    padding-right: 20px;
+    color: white;
+    width:150px;
+    border: 0;
+}
+.header .slider .container .getstarted:hover
+{
+   color: #ce3a11;
+}
+/*end header*/
+/*    start introduction     */
+.introduction
+{
+    background-color: #171819;
+    margin-top: 40px;
+    padding-bottom: 40px;
+    overflow: hidden;
+}
+.introduction .container .left
+{
+    float:left;
+    width:40%;
+    padding-left: 150px;
+}
+.introduction .container .left h2 ,.introduction .container .right h2
+{
+    color:white;
+    font-size: 35px;
+}
+.introduction .container .left h4 , .introduction .container .right h4
+{
+    color:#FFFFFF;
+    font-size: 20px;
+}
+.introduction .container .left p , .introduction .container .right p
+{
+    color:#646060;
+    font-size: 17px;
+}
+.introduction .container .right
+{
+    float:left;
+    border-left: 3px solid #212529;
+    padding-left: 75px;
+}
+
+.introduction .container button
+{
+    background-color: #e54f03;
+    color:white;
+    border:0;
+    height: 50px;
+    width:350px;
+    margin-left: 150px;
+    margin-bottom: 40px;
+}
+.introduction .container button:hover
+{
+   background-color:white;
+    color:#e54f03;
+}
+/*    end introduction     */
+/*    start about us      */
+.about-us
+{
+    clear:both;
+    background-color: #F9F9F9;
+    padding: 50px 0;
+    font-size: 20px;
+    overflow: hidden;
+}
+.about-us .container .left
+{
+    width:35%;
+    float :left;
+    margin-right: 20px;
+    padding-top: 50px;
+}
+.about-us .container .left p
+{
+    color: #888888;
+}
+.about-us .container .right
+{
+    width:60%;
+    display: flex;
+    flex-direction: row;
+}
+.about-us .container .right .right1
+{
+    width: 45%;
+    margin-left: 20px;
+    background-color: white;
+}
+.about-us .container .right .right1 h2,.about-us .container .right .right1 p
+{
+    padding-left: 20px;
+    line-height: .7;
+}
+.about-us .container .right .right1 img
+{
+    width:100%;
+}
+.about-us .container .right .right1 .right2
+{
+    float:left;
+}
+.about-us .container .right .right1 .social img
+{
+    width:30px;
+    display: block;
+    padding-left: 100px;
+    padding-top: 15px;
+}
+
+/*    end about us      */
+/*    start classes      */
+.classes
+{
+    margin-top: 0;
+    background-color: #eeeeee;
+    text-align: center;
+    overflow: hidden;
+    font-size: 22px;
+    padding-bottom: 40px;
+    padding-top: 30px;
+}
+.classes .container p
+{
+    color: #AEAEAE;
+}
+.classes .container p span
+{
+    color: black;
+}
+.classes .container .classes-container
+{
+    display: flex;
+    flex-direction: row;
+}
+.classes .container .classes-container .cont1
+{
+   width:32%;
+   margin-left: 20px;
+   background-color: white;
+   text-align: left;
+}
+.classes .container .classes-container .cont1 img
+{
+    width:100%;
+}
+.classes .container .classes-container .cont1 .cont2
+{
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+}
+.classes .container .classes-container .cont1 .cont2 .price
+{
+    margin-top: 50px;
+    width: 120px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #F13A11;
+    text-align: center;
+    padding-top: 20px;
+    margin-right: 20px;
+}
+/*    end classes      */
+/*   start schedules   */
+.schedules .container
+{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+.schedules .container p
+{
+    padding-top: 50px;
+   font-size: 25px;
+    color: #555555; 
+}
+.schedules .container h2
+{
+    font-size: 40px;
+    color: white;
+    padding-bottom: 50px;
+}
+.schedules .container table th
+{
+    width:150px;
+    height: 75px;
+    color: white;
+    background-color: #F13A11;
+}
+.schedules .container table th img
+{
+    width: 35px;
+}
+.schedules .container table td
+{
+    color: white;
+    border-right: 1px solid #555555;
+    border-bottom: 1px solid #555555;
+    font-size: 18px;
+}
+.schedules .container table td span
+{
+    font-size: 15px;
+    color: #555555;
+}
+/*   end schedules      */
+/*   start contact      */
+.contact
+{
+    background-color: white;
+}
+.contact .container
+{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    display: flex;
+    flex-direction: row;
+}
+.contact .container .left
+{
+    width: 55%;
+}
+.contact .container h2
+{
+    font-size: 40px;
+}
+.contact .container .left input
+{
+    display: block;
+    width:100%;
+    height:60px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+.contact .container .left textarea
+{
+    width:100%;
+    height:120px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+.contact .container .left button
+{
+      width:100%;
+      height:50px;
+      color: white;
+      background-color: #171819;
+      margin-bottom: 20px;
+      border: none;
+}
+.contact .container .left button:hover
+{
+   background-color: #F13A11;
+}
+.contact .container .right
+{
+    padding-left: 100px;
+}
+.contact .container .right img
+{
+    width:30px;
+}
+.contact .container .right p
+{
+    display: inline-block;
+    font-size: 18px;
+    color: #6B6767;
+}
+/*   end contact         */
+/*   start footer        */
+.footer .container
+{
+    overflow: hidden;
+    background-color: white;
+    border-top: 1px solid #eeeeee;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding-top: 10px;
+}
+.footer .container .left
+{
+    float:left;
+    color: #836462;
+    padding-right: 50px;
+}
+.footer .container .right img
+{
+    width:30px;
+}
+.footer .container .right
+{
+    color: #836462;
+}
+/*   end footer        */
+/*   start membership    */
+.membership
+{
+   position: fixed;
+   top:100px;
+   left: 500px;
+   width:400px;
+   height: 530px;
+   padding: 30px;
+   border: 1px solid #444444;
+   background-color: white;
+   display:none;
+}
+.memberhidden
+{
+   display:block;
+}
+.membership h2
+{
+   padding-left: 20px;
+   float:left;
+}
+.membership button
+{
+   background-color: white;
+   border: 0;
+   margin-left: 150px;
+   font-size: 20px;
+}
+.membership input,.membership form button
+{
+   display: block;
+   width :80%;
+   margin: 20px;
+   height:50px;
+}
+.membership textarea
+{
+   display: block;
+   width :80%;
+   margin: 20px;
+   height:100px;
+}
+.membership form button
+{
+   color: white;
+   background-color: black;
+   border:0;
+}
+.membership button:hover
+{
+   background-color: #F13A11;
+}
+.membership .check
+{
+   width:18px;
+   display: inline;
+   margin:0;
+   margin-left: 20px;
+   height:18px;
+}
+.membership p
+{
+   display: inline;
+}
+.membership p a
+{
+   color:#F13A11;
+}
+/*    end membership      */
